@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMRACING</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
+
+</head>
+<body>
+    <h1>Simracing</h1>
+    <p>DISTRIBUIDORES OFICIALES DE PRODUCTOS SIMRACING</p>
+    <ul id="listaProductos">
+        <li>
+            <img src="https://cdn.shopify.com/s/files/1/0615/3122/6358/products/13.png?v=1654659493" alt="BOCA JUNIORS 22/23">
+            <h2>Base MOZA R9</h2>
+            <p>Precio: $500.000</p>
+            <button class="botonAñadir">AÑADIR</button>
+        </li>
+        <li>
+            <img src="https://www.simracingstore.cl/wp-content/uploads/2022/11/moza.png" alt="RIVER PLATE 22/23">
+            <h2>MOZA R9 + ARO</h2>
+            <p>Precio: $600.000</p>
+            <button class="botonAñadir">AÑADIR</button>
+        </li>
+        <li>
+            <img src="https://bmw.fanatec.com/wp-content/uploads/sites/6/2021/10/2020_12_02_BMW_M4_GT3_Videostill_8300_final_END.png" alt="INDEPENDIENTE 22/23">
+            <h2>ARO GT4</h2>
+            <p>Precio: $160.000</p>
+            <button class="botonAñadir">AÑADIR</button>
+        </li>
+        <li>
+            <img src="https://vesaro.com/store/pc/catalog/Moza-R16-Wheel-Base-General.jpg" alt="RACING CLUB 22/23">
+            <h2>MOZA R16</h2>
+            <p>Precio: $500.000</p>
+            <button class="botonAñadir">AÑADIR</button>
+        </li>
+        <li>
+            <img src="https://farm2.staticflickr.com/1803/43086248951_e344354c04_o.jpg" alt="SAN LORENZO 22/23">
+            <h2>BASE 30NM</h2>      
+            <p>Precio: $900.000</p>
+            <button class="botonAñadir">AÑADIR</button>
+        </li>
+        
+    </ul>
+    <div id="carrito" class="carrito-recuadro">
+        <h2 class="titulo-carrito">PRODUCTOS SELECCIONADOS</h2>
+        <ul id="listaCarrito" class="productos-carrito"></ul>
+        <div class="total-recuadro">
+            <p>TOTAL: <span id="total">$0.00</span></p>
+        </div>
+        <button id="vaciarCarrito">ELIMINAR TODO</button>
+        <button id="comprarCarrito">COMPRAR</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
+</body>
+</html>
+
+
+

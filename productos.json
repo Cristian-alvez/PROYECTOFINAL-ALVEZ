@@ -1,0 +1,22 @@
+[
+    {
+        "nombre": "Base MOZA R9",
+        "precio": 500000
+    },
+    {
+        "nombre": "MOZA R9 + ARO",
+        "precio": 600000
+    },
+    {
+        "nombre": "ARO GT4",
+        "precio": 160000
+    },
+    {
+        "nombre": "MOZA R16",
+        "precio": 500000
+    },
+    {
+        "nombre": "BASE 30NM",
+        "precio": 900000
+    }
+]
